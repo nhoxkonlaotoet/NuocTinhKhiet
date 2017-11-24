@@ -5,5 +5,8 @@ package com.example.administrator.nuoctinhkhiet.Models;
  */
 
 public class Product {
-
+	/**
+	 * Bố m về quê đm m
+	 *
+	*/
 }
