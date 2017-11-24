@@ -40,8 +40,8 @@ public class LoginActivity extends AppCompatActivity {
        // acc.put("012335835",new Account("012335835","123456", 1,"Còn hoạt động", "1/1/2017" ));
        // acc.put("01633580156",new Account("01633580156","123456", 0,"Còn hoạt động", "1/1/2017" ));
 
-        acc.add(new Account("012335835","123456", 1,"Còn hoạt động", "1/1/2017" ));
-        acc.add(new Account("01633580156","123456", 0,"Còn hoạt động", "1/1/2017" ));
+//        acc.add(new Account("012335835","123456", 1,"Còn hoạt động", "1/1/2017" ));
+//        acc.add(new Account("01633580156","123456", 0,"Còn hoạt động", "1/1/2017" ));
 
         AccountRef.setValue(acc);
         Query query1 = myRef.child("Product").orderByChild("typeid").equalTo(1);
